@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+    <title>联系我们</title>
+    <style>
+        body {
+            background-color:#CCCCCC;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #questionnaire{
+            background-color:white; 
+            padding:15px;
+            margin: auto; 
+            width:900px;
+            text-align:center;
+            font-family:"微软雅黑";
+            box-shadow: 10px 10px 15px black;
+        }
+
+        h1{
+        color: rgb(189, 24, 54);   
+        }
+
+        hr{
+            width:80%;
+            border:rgb(189, 24, 54) 1px solid;
+            margin-bottom:15px;
+        }
+
+        form{
+            text-align:left;
+            width:80%;
+            margin:auto;
+        }
+
+        li{
+            margin:10px 0;
+        }
+
+        input{
+            margin:10px;    
+        }
+
+        input[type="text"],input[type="tel"]{
+            width:130px;
+            height:20px;
+            font-size:16px;
+            font-family:"微软雅黑";
+            border:0px;
+            border-bottom:1px solid;
+            outline:none;
+        }
+
+        #btn{
+            text-align:center;
+        }
+
+        button{
+            width:120px;
+            height:40px;
+            background-color:rgb(189, 24, 54);
+            border:0px;
+            color: white;
+            margin:10px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        button:hover{
+            background-color:#FF6835;
+        }
+
+    </style>
+</head>
+    <body>
+        <div id="questionnaire">
+            <h1>感谢联系吉林文旅，请填写下列个人信息</h1>
+            <hr />
+            <form method="post">
+                <ol>
+                    <li>您的学历程度是？</li>
+                    <label>
+                        <input type="radio" name="q1">
+                        高中 </label>
+                    <label>
+                        <input type="radio" name="q1">
+                        本科 </label>
+                    <label>
+                        <input type="radio" name="q1">
+                        硕士研究生 </label>
+                    <label>
+                        <input type="radio" name="q1">
+                        博士及以上 </label>
+
+
+                    <li>您的年龄段是？</li>
+
+                    <label>
+                        <input type="radio" name="q2">
+                        18-25岁 </label>
+                    <label>
+                        <input type="radio" name="q2">
+                        26-30岁 </label>
+                    <label>
+                        <input type="radio" name="q2">
+                        31-35岁 </label>
+                    <label>
+                        <input type="radio" name="q2">
+                        35岁以上 </label>
+
+                    <li>您期望加入的岗位方向？</li>
+                    <label>
+                        <input type="radio" name="q3">
+                        开发部门 </label>
+                    <label>
+                        <input type="radio" name="q3">
+                        销售部门 </label>
+                    <label>
+                        <input type="radio" name="q3">
+                        行政部门 </label>
+                    <label>
+                        <input type="radio" name="q3">
+                        人力资源部门 </label>
+
+                    <li>您有过多久的相关工作经验？</li>
+                    <label>
+                        <input type="radio" name="q4">
+                        无经验</label>
+                    <label>
+                        <input type="radio" name="q4">
+                        1年以内</label>
+                    <label>
+                        <input type="radio" name="q4">
+                        2年以内</label>
+                    <label>
+                        <input type="radio" name="q4">
+                        3年以内</label>
+                    <label>
+                        <input type="radio" name="q4">
+                        3年以上</label>
+
+                    <li>您对吉林文旅哪些方面的工作有较好建议？（可多选）</li>
+                    <label>
+                        <input type="checkbox" name="q5">
+                        社媒宣传方式 </label>
+                    <br />
+                    <label>
+                        <input type="checkbox" name="q5">
+                        活动举办策划 </label>
+                    <br />
+                    <label>
+                        <input type="checkbox" name="q5">
+                        线上旅游业务 </label>
+                    <br />
+                    <label>
+                        <input type="checkbox" name="q5">
+                        旅游路线及景点开发 </label>
+                    <br />
+                    <input type="checkbox" name="q5">
+                        赞助方合作方式 </label>
+                    <br />
+                    <label>
+                        <input type="checkbox" name="q5">
+                        服务质量优化</label>
+                    <br />
+                    <label>
+                        <input type="checkbox" name="q5">
+                        其他工作（请联系邮箱） </label>
+                </ol>
+                
+                <label>您的姓名
+                    <input type="text"  name="name" required />
+                </label>
+                <label>您的职业
+                    <input type="text" name="position" required />
+                </label>
+                <label>联系电话
+                    <input type="tel" name="tel" required />
+                </label>
+                
+                 <div id="btn">
+                    <button><a href="index.html">提交问卷</a></button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+

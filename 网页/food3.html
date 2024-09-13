@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食-粘豆包</title>
+    <style>
+a {
+    text-decoration: none;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 10px 20px;  
+    background-color: rgb(189, 24, 54); 
+    align-items: center; 
+    width: 100%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+}   
+.logo {  
+    margin: 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #ffffff; 
+}  
+.container {  
+    display: flex;  
+    align-items: center;   
+}   
+nav ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex; 
+}   
+nav ul li {  
+    list-style: none;  
+    display: inline-block;  
+    padding: 10px 20px; 
+    margin: 0; 
+    font-size: 16px;   
+    font-weight: 500;  
+    color: #ffffff;  
+    cursor: pointer;  
+    position: relative;  
+    z-index: 2;  
+    transition: color 0.5s, background-color 0.5s; 
+}   
+nav ul li:hover {  
+    color: #fff;  
+    background-color: rgb(188, 114, 128);  
+} 
+.little-header {
+
+    width: 100vw;
+    height: 49vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url('./img/littleheader.jpg'); 
+} 
+.little-header h2 {
+    font-size: 8vmin;
+    margin-bottom: 18vh;
+    margin-right: 60vw;
+    color: #fff;
+}
+.news-section {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    padding: 20px;  
+    width: 100%;  
+    max-width: 800px; /* 限制最大宽度以适应不同屏幕 */  
+    margin: 0 auto; /* 居中新闻部分 */  
+}  
+
+.news-header {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin-bottom: 20px;  
+}  
+
+.news-title {  
+    font-size: 40px;  
+    font-weight: bold;  
+    color: #333;  
+    margin-bottom: 17px; 
+    margin-top: 20px; 
+}  
+
+.news-subtitle {  
+    font-size: 18px;  
+    color: #666;  
+}  
+
+.news-image {  
+    width: 100%;  
+    max-width: 600px; /* 限制图片最大宽度 */  
+    height: auto;  
+    margin-bottom: 20px;  
+}  
+
+.news-content {  
+    font-size: 20px;  
+    line-height: 2.0;  
+    color: #333;  
+    text-align: justify; /* 文本两端对齐 */  
+}  
+.end {  
+    height: 30vh;  
+    width: 100vw;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    background-color: #e6e5e5;  
+    padding: 0 20px;  
+    box-sizing: border-box;  
+}   
+.leftbox {  
+    margin-left: 50px; 
+}   
+.rightbox {  
+    display: flex; 
+    flex-direction: row;
+    margin-right: 50px; 
+    width: 60%; 
+}   
+.link-group {  
+    margin-right: 30px; 
+    display: flex; 
+    flex-wrap: wrap; 
+}  
+.link-group a {
+    color: #878484;
+}
+#getLocationBtn {
+    border: none;
+    color: #878484;
+    background-color: rgb(230, 229, 229);
+    
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">江城文旅</h1>
+        <div class="container">
+            <nav>
+              <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="login.html">登录</a></li>
+              </ul>
+            </nav>
+          </div>
+    </nav>
+    <div class="little-header">
+        <h2>吉林特色美食</h2>
+    </div>
+
+    <div class="news-section">  
+        <div class="news-header">  
+            <h1 class="news-title">特色甜品——粘豆包</h1>  
+            <h2 class="news-subtitle">与雪衣豆沙并称“东北甜品之首”</h2>  
+        </div>  
+        <img src="./img/food3.jpg" alt="新闻配图" class="news-image">  
+        <div class="news-content">  
+            <p>粘豆包，又称豆包，是东北特色食品。在东北地区，粘豆包是人们冬季餐桌不可或缺的主角。 粘豆包一般是在冬季开始的时候制作，然后放入户外的缸中保存过冬。一切工艺源自于天然，属传统天然食品的典范。</p>  
+            <p>粘豆包因其易于储藏，食材易得而得到农村人的喜爱，并成为一些地区的传统食物，由于中国城市化步伐的加快，大米，白面的食材的日益丰富
+                ，这种传统主食也面临不断减少的趋势。传统制作工艺也逐渐成为少数人会的一本手艺，而这种主食主要是农村的，辽宁朝阳地区因气候四季分明，
+                食材即为当地的粮食作物，农村人口较多，大多家庭还保持着传统的制作工艺，因其味道品质与制作人的技艺要求较高，不同的人作出的粘豆包也会有所不同，
+                每当蒸豆包时，互赠豆包已成为当地人的一种习俗，品味其口感，借此也向好的工艺人学习探讨制作工艺，以提高自己的手艺。
+                同时也是赠送远方亲友的理想食物，许多从农村迈入城市的人在内心都表现出对那种传统食物的一种特殊的怀念，忘不了这种家乡的味道。</p>   
+        </div>  
+    </div>  
+
+    <section class="end">  
+        <div class="leftbox">  
+            <p><i class="fas fa-phone"></i> 咨询热线：123-456789</p>  
+            <p><i class="fas fa-map-marker-alt"></i> 地址：吉林省吉林市文旅中心</p>  
+            <p><i class="fas fa-envelope"></i> 邮箱：12345678@gmail.com</p>  
+        </div>  
+        
+        <div class="rightbox">  
+            <div class="link-group">  
+                <h4>快速链接</h4>  
+                <a href="contact_us.html"><i class="fas fa-user-circle"></i>联系我们</a>  
+                <a href="leave_message.html"><i class="fas fa-comments"></i>留言建议</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>更多信息</h4>  
+                <a href="#guide"><i class="fas fa-book"></i>浏览攻略</a>  
+                <a href="#notice"><i class="fas fa-bell"></i>运营通知</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>景区动态</h4>  
+                <a href="#news"><i class="fas fa-newspaper"></i>最新新闻</a>  
+                <a href="#events"><i class="fas fa-calendar-alt"></i>活动安排</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>景区周边</h4>  
+                <a href="#hotels"><i class="fas fa-hotel"></i>周边酒店</a>  
+                <a href="#restaurants"><i class="fas fa-utensils"></i>美食推荐</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>实用信息</h4>  
+                <a href="#weather"><i class="fas fa-cloud-sun"></i>天气预报</a>  
+                <a href="#maps"><i class="fas fa-map"></i>地图导航</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>更多功能</h4>  
+                <button id="getLocationBtn">我的位置</button>
+            </div>  
+        </div>  
+        
+    </section>
+
+</body>
+</html>

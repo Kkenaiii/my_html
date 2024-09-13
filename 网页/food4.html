@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食-铁锅炖</title>
+    <style>
+a {
+    text-decoration: none;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 10px 20px;  
+    background-color: rgb(189, 24, 54); 
+    align-items: center; 
+    width: 100%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+}   
+.logo {  
+    margin: 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #ffffff; 
+}  
+.container {  
+    display: flex;  
+    align-items: center;   
+}   
+nav ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex; 
+}   
+nav ul li {  
+    list-style: none;  
+    display: inline-block;  
+    padding: 10px 20px; 
+    margin: 0; 
+    font-size: 16px;   
+    font-weight: 500;  
+    color: #ffffff;  
+    cursor: pointer;  
+    position: relative;  
+    z-index: 2;  
+    transition: color 0.5s, background-color 0.5s; 
+}   
+nav ul li:hover {  
+    color: #fff;  
+    background-color: rgb(188, 114, 128);  
+} 
+.little-header {
+
+    width: 100vw;
+    height: 49vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url('./img/littleheader.jpg'); 
+} 
+.little-header h2 {
+    font-size: 8vmin;
+    margin-bottom: 18vh;
+    margin-right: 60vw;
+    color: #fff;
+}
+.news-section {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    padding: 20px;  
+    width: 100%;  
+    max-width: 800px; /* 限制最大宽度以适应不同屏幕 */  
+    margin: 0 auto; /* 居中新闻部分 */  
+}  
+
+.news-header {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin-bottom: 20px;  
+}  
+
+.news-title {  
+    font-size: 40px;  
+    font-weight: bold;  
+    color: #333;  
+    margin-bottom: 17px; 
+    margin-top: 20px; 
+}  
+
+.news-subtitle {  
+    font-size: 18px;  
+    color: #666;  
+}  
+
+.news-image {  
+    width: 100%;  
+    max-width: 600px; /* 限制图片最大宽度 */  
+    height: auto;  
+    margin-bottom: 20px;  
+}  
+
+.news-content {  
+    font-size: 20px;  
+    line-height: 2.0;  
+    color: #333;  
+    text-align: justify; /* 文本两端对齐 */  
+}  
+.end {  
+    height: 30vh;  
+    width: 100vw;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    background-color: #e6e5e5;  
+    padding: 0 20px;  
+    box-sizing: border-box;  
+}   
+.leftbox {  
+    margin-left: 50px; 
+}   
+.rightbox {  
+    display: flex; 
+    flex-direction: row;
+    margin-right: 50px; 
+    width: 60%; 
+}   
+.link-group {  
+    margin-right: 30px; 
+    display: flex; 
+    flex-wrap: wrap; 
+}  
+.link-group a {
+    color: #878484;
+}
+#getLocationBtn {
+    border: none;
+    color: #878484;
+    background-color: rgb(230, 229, 229);
+    
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">江城文旅</h1>
+        <div class="container">
+            <nav>
+              <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="login.html">登录</a></li>
+              </ul>
+            </nav>
+          </div>
+    </nav>
+    <div class="little-header">
+        <h2>吉林特色美食</h2>
+    </div>
+
+    <div class="news-section">  
+        <div class="news-header">  
+            <h1 class="news-title">吉林名菜——铁锅炖</h1>  
+            <h2 class="news-subtitle">亲朋好友聚餐时的不二之选</h2>  
+        </div>  
+        <img src="./img/food4.jpg" alt="新闻配图" class="news-image">  
+        <div class="news-content">  
+            <p>铁锅炖原指东北及农村地区等一些地方的烹饪形式，是使用灶台铁锅炖鸡、鹅、鱼、排骨等菜肴的方式，以烧柴为主，比较出名的有“铁锅炖大鹅”“地锅鸡”“灶台鱼”。起源于闯关东时期，到大东北的人们和东北本地人群，通过乱炖的形式产生的菜品。现指一种脱胎于火锅店的饭店餐饮模式，以电加热铁锅炖为主，从东北地区流传到南方，食客络绎不绝。</p>  
+            <p>相传公元前，秦王李世民为了解敌军情况，带着几名属下亲往敌军营地探查敌情，不幸被敌军发现。李世民带着属下奋勇突围，虽然成功逃脱，却在征战中受伤，就在他们快要绝望的时候，遇一采药之人，自称姜尚后人吕氏。吕氏深受战争疾苦，对英明神武且爱民如子的李世民非常拥戴，用铁锅炖野鸡野兔等为他们补充营养，得知李世民受伤还在里面添加了中草药。李世民和属下饱餐过后，精神大振，伤口也在几日内愈合，李世民之后开启了大唐盛世。每每和属下谈论起刺探敌情的危险经历，就想再回味一下当初的美味，李世民传来药王孙思邈详细了解，在铁锅炖中再添加一些对人体有益的中草药，是美味和良药的结合。感激于吕氏的相助，加之对民意的顺应，李世民下令老百姓可以使用铁锅。</p>  
+        </div>  
+    </div>  
+
+    <section class="end">  
+        <div class="leftbox">  
+            <p><i class="fas fa-phone"></i> 咨询热线：123-456789</p>  
+            <p><i class="fas fa-map-marker-alt"></i> 地址：吉林省吉林市文旅中心</p>  
+            <p><i class="fas fa-envelope"></i> 邮箱：12345678@gmail.com</p>  
+        </div>  
+        
+        <div class="rightbox">  
+            <div class="link-group">  
+                <h4>快速链接</h4>  
+                <a href="contact_us.html"><i class="fas fa-user-circle"></i>联系我们</a>  
+                <a href="leave_message.html"><i class="fas fa-comments"></i>留言建议</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>更多信息</h4>  
+                <a href="#guide"><i class="fas fa-book"></i>浏览攻略</a>  
+                <a href="#notice"><i class="fas fa-bell"></i>运营通知</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>景区动态</h4>  
+                <a href="#news"><i class="fas fa-newspaper"></i>最新新闻</a>  
+                <a href="#events"><i class="fas fa-calendar-alt"></i>活动安排</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>景区周边</h4>  
+                <a href="#hotels"><i class="fas fa-hotel"></i>周边酒店</a>  
+                <a href="#restaurants"><i class="fas fa-utensils"></i>美食推荐</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>实用信息</h4>  
+                <a href="#weather"><i class="fas fa-cloud-sun"></i>天气预报</a>  
+                <a href="#maps"><i class="fas fa-map"></i>地图导航</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>更多功能</h4>  
+                <button id="getLocationBtn">我的位置</button>
+            </div>  
+        </div>  
+        
+    </section>
+
+</body>
+</html>

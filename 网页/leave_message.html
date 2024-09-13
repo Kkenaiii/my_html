@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+    <title>留言建议</title>
+    <style>
+        body {
+            background-color:#CCCCCC;
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #questionnaire{
+            background-color:white; 
+            padding:15px;
+            margin: auto; 
+            width:900px;
+            text-align:center;
+            font-family:"微软雅黑";
+            box-shadow: 10px 10px 15px black;
+        }
+
+        h1{
+        color: rgb(189, 24, 54);   
+        }
+
+        hr{
+            width:80%;
+            border:rgb(189, 24, 54) 1px solid;
+            margin-bottom:15px;
+        }
+
+        form{
+            text-align:left;
+            width:80%;
+            margin:auto;
+        }
+
+        li{
+            margin:10px 0;
+        }
+
+        input{
+            margin:10px;    
+        }
+
+        input[type="text"],input[type="tel"]{
+            width:130px;
+            height:20px;
+            font-size:16px;
+            font-family:"微软雅黑";
+            border:0px;
+            border-bottom:1px solid;
+            outline:none;
+        }
+
+        #btn{
+            text-align:center;
+        }
+
+        button{
+            width:120px;
+            height:40px;
+            background-color:rgb(189, 24, 54);
+            border:0px;
+            color: white;
+            margin:10px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        button:hover{
+            background-color:#FF6835;
+        }
+
+        textarea {  
+        width: 100%; /* 宽度占满父容器 */  
+        height: 500px; /* 高度设置为200像素 */  
+        padding: 10px; /* 内边距 */  
+        box-sizing: border-box; /* 确保padding和border不会增加textarea的总宽度 */  
+        font-size: 16px; /* 字体大小 */  
+        resize: vertical; /* 允许用户垂直调整大小，但不允许水平调整 */  
+        }  
+
+    </style>
+</head>
+    <body>
+        <div id="questionnaire">
+            <h1>感谢留言吉林文旅，请输入您的建议与留言</h1>
+            <hr />
+            <form method="post">
+                <textarea rows="10" cols="50" placeholder="请在这里输入您的内容..."></textarea>
+                
+                <label>您的姓名
+                    <input type="text"  name="name" required />
+                </label>
+                <label>您的职业
+                    <input type="text" name="position" required />
+                </label>
+                <label>联系电话
+                    <input type="tel" name="tel" required />
+                </label>
+                
+                 <div id="btn">
+                    <button><a href="index.html">提交留言</a></button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

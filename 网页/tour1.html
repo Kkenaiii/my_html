@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>长白山自然保护区</title>
+    <style>
+a {
+    text-decoration: none;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 10px 20px;  
+    background-color: rgb(189, 24, 54); 
+    align-items: center; 
+    width: 100%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+}   
+.logo {  
+    margin: 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #ffffff; 
+}  
+.container {  
+    display: flex;  
+    align-items: center;   
+}   
+nav ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex; 
+}   
+nav ul li {  
+    list-style: none;  
+    display: inline-block;  
+    padding: 10px 20px; 
+    margin: 0; 
+    font-size: 16px;   
+    font-weight: 500;  
+    color: #ffffff;  
+    cursor: pointer;  
+    position: relative;  
+    z-index: 2;  
+    transition: color 0.5s, background-color 0.5s; 
+}   
+nav ul li:hover {  
+    color: #fff;  
+    background-color: rgb(188, 114, 128);  
+} 
+.little-header {
+
+    width: 100vw;
+    height: 49vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url('./img/littleheader.jpg'); 
+} 
+.little-header h2 {
+    font-size: 8vmin;
+    margin-bottom: 18vh;
+    margin-right: 60vw;
+    color: #fff;
+}
+.news-section {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    padding: 20px;  
+    width: 100%;  
+    max-width: 800px; /* 限制最大宽度以适应不同屏幕 */  
+    margin: 0 auto; /* 居中新闻部分 */  
+}  
+
+.news-header {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin-bottom: 20px;  
+}  
+
+.news-title {  
+    font-size: 40px;  
+    font-weight: bold;  
+    color: #333;  
+    margin-bottom: 17px; 
+    margin-top: 20px; 
+}  
+
+.news-subtitle {  
+    font-size: 18px;  
+    color: #666;  
+}  
+
+.news-image {  
+    width: 100%;  
+    max-width: 600px; /* 限制图片最大宽度 */  
+    height: auto;  
+    margin-bottom: 20px;  
+}  
+
+.news-content {  
+    font-size: 20px;  
+    line-height: 2.0;  
+    color: #333;  
+    text-align: justify; /* 文本两端对齐 */  
+}  
+.end {  
+    height: 30vh;  
+    width: 100vw;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    background-color: #e6e5e5;  
+    padding: 0 20px;  
+    box-sizing: border-box;  
+}   
+.leftbox {  
+    margin-left: 50px; 
+}   
+.rightbox {  
+    display: flex; 
+    flex-direction: row;
+    margin-right: 50px; 
+    width: 60%; 
+}   
+.link-group {  
+    margin-right: 30px; 
+    display: flex; 
+    flex-wrap: wrap; 
+}  
+.link-group a {
+    color: #878484;
+}
+#getLocationBtn {
+    border: none;
+    color: #878484;
+    background-color: rgb(230, 229, 229);
+    
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">江城文旅</h1>
+        <div class="container">
+            <nav>
+              <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="login.html">登录</a></li>
+              </ul>
+            </nav>
+          </div>
+    </nav>
+    <div class="little-header">
+        <h2>旅游胜地</h2>
+    </div>
+
+    <div class="news-section">  
+        <div class="news-header">  
+            <h1 class="news-title">长白山自然保护区</h1>  
+            <h2 class="news-subtitle">万水千山：在长白山脉，聆听万物的生命之歌</h2>  
+        </div>  
+        <img src="./img/img1.jpg" alt="新闻配图" class="news-image">  
+        <div class="news-content">  
+            <p>作为松花江、鸭绿江、图们江的“东北三江源”，长白山不仅是欧亚大陆东缘的最高山系，也是北半球同纬度带原始状态保存最好、物种最为丰富的地区，拥有欧亚大陆东部最为典型的温带山地森林生态系统。长白山脉呈东北至西南走向，形成绵延约1300公里的生态屏障，护佑着中国东北乃至东北亚地区的生态系统。
+                “人不负青山，青山定不负人。绿水青山既是自然财富，又是经济财富”。近年来，吉林省牢固树立和践行“绿水青山就是金山银山”的理念，坚定不移筑牢长白山这一生态屏障，在高水平保护与高质量发展相得益彰中永续宝藏。
+                野生东北虎、东北豹种群数量增长，“鸟中大熊猫”中华秋沙鸭成为常客——以珍禽猛兽“代言”的自然环境乐谱为基，长白山律动文旅、生态、康养、体育、经贸等乐章，奏鸣人与自然和谐共生的“绿色交响曲”。3月27日，联合国教科文组织执行局公布最新一批世界地质公园入选名录，长白山名列其中。
+                “长白山是数百万年来保存最完好的复合型火山之一，完整记录了火山形成的全过程，为研究火山形成机制创造了条件。长白山顶的天池是东北亚海拔最高、规模最大的火山口湖，景色美不胜收……”对这一新晋成员，联合国教科文组织在新闻公报中毫不吝惜溢美之词。
+                长白山担得起这份赞誉。
+                “十分之一”定律下的野生东北虎种群数量增长，是这份赞誉的重要参考。生态学认为，食物链的能量转化中，每2万千克的绿色植物才可转化为2000千克的食草动物，进而才可保证1只200千克体重的东北虎存活。作为生物链顶端物种的东北虎，对自然环境的“要求”堪称苛刻，其种群数量变化更相当于所处环境的晴雨表。
+                如今在长白山地区，人与野生虎豹的不期而遇已不再是爆款新闻。2021年，东北虎豹国家公园正式成立，划出1.41万平方公里土地为虎豹重建家园，横跨吉林和黑龙江。公园管理局最新监测数据显示，目前稳定生活在公园范围内的野生东北虎已达70只左右，野生东北豹已达80只左右，活动范围超过1.1万平方公里。
+                “我们看到东北虎豹种群的活动范围进一步扩大，尤其是在公园的东部核心区，已经重现‘众山皆有虎’的历史盛况。”国家林草局东北虎豹监测与研究中心副主任冯利民介绍，过去一年间，至少20只东北虎幼崽、15只东北豹幼崽被记录下来。
+                长白山除了虎豹成群，还是珍禽重要繁殖地。一副萌态的中华秋沙鸭是国家一级保护动物，被喻为“鸟中大熊猫”，每年迁徙季都会成批来到长白山下的二道白河、松江河等水草丰美的地方繁殖育雏。
+                吉林省科普服务中心近期再次监测到中华秋沙鸭雏鸟戏水的场景。通过视频终端可以看到，“鸭妈妈”正带着一群“鸭宝宝”在水面玩耍。常年在长白山区拍摄野生动物的摄影师朴龙国说，随着生态环境的持续改善，拍摄到雏鸟“跳巢”等罕见画面的机会也变多了。
+                珍禽猛兽“代言”的生态环境，离不开科学严格的保护举措。近年来，吉林省持续对长白山实施“统一规划、统一保护、统一开发、统一管理”，大力开展山水林田湖草生态保护修复工程。长白山国家级自然保护区还构建了“天地空一体化”林业监测预警体系，以及集资源保护、森林防火、应急处置等功能于一体的数字化指挥平台，实现“人防”向“人防+技防”的历史转变。</p>  
+        </div>  
+    </div>  
+
+    <section class="end">  
+        <div class="leftbox">  
+            <p><i class="fas fa-phone"></i> 咨询热线：123-456789</p>  
+            <p><i class="fas fa-map-marker-alt"></i> 地址：吉林省吉林市文旅中心</p>  
+            <p><i class="fas fa-envelope"></i> 邮箱：12345678@gmail.com</p>  
+        </div>  
+        
+        <div class="rightbox">  
+            <div class="link-group">  
+                <h4>快速链接</h4>  
+                <a href="contact_us.html"><i class="fas fa-user-circle"></i>联系我们</a>  
+                <a href="leave_message.html"><i class="fas fa-comments"></i>留言建议</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>更多信息</h4>  
+                <a href="#guide"><i class="fas fa-book"></i>浏览攻略</a>  
+                <a href="#notice"><i class="fas fa-bell"></i>运营通知</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>景区动态</h4>  
+                <a href="#news"><i class="fas fa-newspaper"></i>最新新闻</a>  
+                <a href="#events"><i class="fas fa-calendar-alt"></i>活动安排</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>景区周边</h4>  
+                <a href="#hotels"><i class="fas fa-hotel"></i>周边酒店</a>  
+                <a href="#restaurants"><i class="fas fa-utensils"></i>美食推荐</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>实用信息</h4>  
+                <a href="#weather"><i class="fas fa-cloud-sun"></i>天气预报</a>  
+                <a href="#maps"><i class="fas fa-map"></i>地图导航</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>更多功能</h4>  
+                <button id="getLocationBtn">我的位置</button>
+            </div>  
+        </div>  
+        
+    </section>
+
+</body>
+</html>

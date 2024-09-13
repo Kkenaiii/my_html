@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食-麻辣烫</title>
+    <style>
+a {
+    text-decoration: none;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 10px 20px;  
+    background-color: rgb(189, 24, 54); 
+    align-items: center; 
+    width: 100%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  
+}   
+.logo {  
+    margin: 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #ffffff; 
+}  
+.container {  
+    display: flex;  
+    align-items: center;   
+}   
+nav ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex; 
+}   
+nav ul li {  
+    list-style: none;  
+    display: inline-block;  
+    padding: 10px 20px; 
+    margin: 0; 
+    font-size: 16px;   
+    font-weight: 500;  
+    color: #ffffff;  
+    cursor: pointer;  
+    position: relative;  
+    z-index: 2;  
+    transition: color 0.5s, background-color 0.5s; 
+}   
+nav ul li:hover {  
+    color: #fff;  
+    background-color: rgb(188, 114, 128);  
+} 
+.little-header {
+
+    width: 100vw;
+    height: 49vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url('./img/littleheader.jpg'); 
+} 
+.little-header h2 {
+    font-size: 8vmin;
+    margin-bottom: 18vh;
+    margin-right: 60vw;
+    color: #fff;
+}
+.news-section {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    padding: 20px;  
+    width: 100%;  
+    max-width: 800px; /* 限制最大宽度以适应不同屏幕 */  
+    margin: 0 auto; /* 居中新闻部分 */  
+}  
+
+.news-header {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin-bottom: 20px;  
+}  
+
+.news-title {  
+    font-size: 40px;  
+    font-weight: bold;  
+    color: #333;  
+    margin-bottom: 17px; 
+    margin-top: 20px; 
+}  
+
+.news-subtitle {  
+    font-size: 18px;  
+    color: #666;  
+}  
+
+.news-image {  
+    width: 100%;  
+    max-width: 600px; /* 限制图片最大宽度 */  
+    height: auto;  
+    margin-bottom: 20px;  
+}  
+
+.news-content {  
+    font-size: 20px;  
+    line-height: 2.0;  
+    color: #333;  
+    text-align: justify; /* 文本两端对齐 */  
+}  
+.end {  
+    height: 30vh;  
+    width: 100vw;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    background-color: #e6e5e5;  
+    padding: 0 20px;  
+    box-sizing: border-box;  
+}   
+.leftbox {  
+    margin-left: 50px; 
+}   
+.rightbox {  
+    display: flex; 
+    flex-direction: row;
+    margin-right: 50px; 
+    width: 60%; 
+}   
+.link-group {  
+    margin-right: 30px; 
+    display: flex; 
+    flex-wrap: wrap; 
+}  
+.link-group a {
+    color: #878484;
+}
+#getLocationBtn {
+    border: none;
+    color: #878484;
+    background-color: rgb(230, 229, 229);
+    
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">江城文旅</h1>
+        <div class="container">
+            <nav>
+              <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="login.html">登录</a></li>
+              </ul>
+            </nav>
+          </div>
+    </nav>
+    <div class="little-header">
+        <h2>吉林特色美食</h2>
+    </div>
+
+    <div class="news-section">  
+        <div class="news-header">  
+            <h1 class="news-title">麻辣烫鼻祖——东北麻辣烫</h1>  
+            <h2 class="news-subtitle">黏糊糊的东北麻辣烫，火遍大江南北</h2>  
+        </div>  
+        <img src="./img/food5.jpg" alt="新闻配图" class="news-image">  
+        <div class="news-content">  
+            <p>‌‌东北麻辣烫是一种具有独特风味和丰富食材选择的小吃，起源于‌四川但经过东北改良后流行于各地。‌
+            东北麻辣烫在四川麻辣烫的基础上进行了改良，尤其是在汤的熬制方面，多数使用‌大骨头熬制的汤汁，闻起来特别香醇，这样做出的麻辣烫更加符合北方人的口味。此外，面条的选择也有很多，可以是方便面、手擀面、‌牛筋面、‌莜面、‌荞麦面等，其中‌玉米面因其粗细适中且嚼起来劲道而特别受欢迎。在食材选择上，东北麻辣烫提供了‌海鲜、各种‌蔬菜、‌鱼丸等肉类，顾客可以根据自己的口味选择少麻酱少辣椒、正常、多麻酱多辣椒等多种调料搭配。
+            东北麻辣烫不仅味道鲜美，还具有一定的营养价值。骨汤有强身健体的功能，新鲜的蔬菜和浓香的骨汤能提供丰富的营养。此外，东北麻辣烫在制作上也有一定的讲究，从选材到制作都经过精心把关，确保食材的新鲜和口感。
+            总的来说，东北麻辣烫以其独特的调料、丰富的食材选择和讲究的制作工艺，成为了一种广受欢迎的小吃，不仅满足了北方人对辣味食品的喜好，也提供了一种便捷且美味的餐饮选择。</p>  
+        </div>  
+    </div>  
+
+    <section class="end">  
+        <div class="leftbox">  
+            <p><i class="fas fa-phone"></i> 咨询热线：123-456789</p>  
+            <p><i class="fas fa-map-marker-alt"></i> 地址：吉林省吉林市文旅中心</p>  
+            <p><i class="fas fa-envelope"></i> 邮箱：12345678@gmail.com</p>  
+        </div>  
+        
+        <div class="rightbox">  
+            <div class="link-group">  
+                <h4>快速链接</h4>  
+                <a href="contact_us.html"><i class="fas fa-user-circle"></i>联系我们</a>  
+                <a href="leave_message.html"><i class="fas fa-comments"></i>留言建议</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>更多信息</h4>  
+                <a href="#guide"><i class="fas fa-book"></i>浏览攻略</a>  
+                <a href="#notice"><i class="fas fa-bell"></i>运营通知</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>景区动态</h4>  
+                <a href="#news"><i class="fas fa-newspaper"></i>最新新闻</a>  
+                <a href="#events"><i class="fas fa-calendar-alt"></i>活动安排</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>景区周边</h4>  
+                <a href="#hotels"><i class="fas fa-hotel"></i>周边酒店</a>  
+                <a href="#restaurants"><i class="fas fa-utensils"></i>美食推荐</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>实用信息</h4>  
+                <a href="#weather"><i class="fas fa-cloud-sun"></i>天气预报</a>  
+                <a href="#maps"><i class="fas fa-map"></i>地图导航</a>  
+            </div>  
+            <div class="link-group">  
+                <h4>更多功能</h4>  
+                <button id="getLocationBtn">我的位置</button>
+            </div>  
+        </div>  
+        
+    </section>
+
+</body>
+</html>

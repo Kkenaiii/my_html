@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style>
+body {
+    background: url(./img/雪山.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+a  {
+    color: #ddd;
+    text-decoration: none;
+}
+#logo {
+    position: absolute;
+    left: 260px;
+    top: 168px;
+    width: 600px;
+}
+#logo p {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    line-height: 85px;
+}
+#login {
+    position: absolute;
+    left: 743px;
+    top: 127px;
+    width: 524px;
+    height: 597px;
+    background-color: rgb(50, 50, 63);
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#login h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px; /* 增加标题与下一个部分的间隔 */
+}
+.input-group, .input-number,.checkbox-group, .button-group {
+    margin-bottom: 20px; /* 增加 div 之间的间隔 */
+}
+.input-group label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+.input-number label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+.input-number img {
+    width: 80px;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background-color: white;
+    box-sizing: border-box;
+}
+.input-number input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background-color: white;
+    box-sizing: border-box;
+}
+.checkbox-group label {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+.checkbox-group a{
+    color:rgb(36, 79, 179);
+}
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color:rgb(36, 79, 179);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(5, 24, 69);
+}
+</style>
+</head>
+<body>
+<div id="logo">
+    <p><strong>大美吉林</strong></p>
+    <p><strong>欢迎您</strong></p>
+</div>
+<div id="login">
+    <div class="title-group">
+        <h2>登录</h2>
+    </div>
+    <div class="input-group">
+        <label for="email"><strong>电子邮箱</strong></label>
+        <input type="email" id="email" placeholder="输入电子邮箱">
+    </div>
+    <div class="input-group">
+        <label for="password"><strong>密码</strong></label>
+        <input type="password" id="password" placeholder="输入密码">
+    </div>
+    <div class="input-number">
+        <label for="number"><strong>验证码</strong></label>
+        <input type="number" id="number" placeholder="输入验证码">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./img/微信图片_20240906164414.jpg" alt="">
+    </div>
+    <div class="checkbox-group">
+        <label>
+            <input type="checkbox"> 记住我
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.example.com">忘记密码？</a>
+        </label>
+    </div>
+    <div class="button-group">
+        <button type="submit"><strong><a href="index.html">登录</a></strong></button>
+    </div>
+    <div class="checkbox-group">
+        <label>
+            <input type="checkbox"> 我已阅读并完全同意吉林文旅 
+            &nbsp;<a href="https://www.example.com">服务条款</a>
+        </label>
+    </div>
+    <div class="button-group">
+        <button><strong><a href="index.html">立即注册</a></strong></button>
+    </div>
+</div>
+</body>
+</html>
